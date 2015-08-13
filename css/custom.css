@@ -1,1 +1,49 @@
 /*Custom CSS*/
+
+body {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 7em;
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 2px;
+	line-height: 125%;
+	margin: 50px 0;
+}
+
+h2 {
+	font-weight: 600;
+	margin: 15px 0;
+}
+
+.header {
+	background-color: #332e21;
+	color: #fff;
+}
+
+.gradients {
+	background: -webkit-linear-gradient(left top, #7555da, #08c0c2); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #7555da, #08c0c2); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #7555da, #08c0c2); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(bottom right, #7555da , #08c0c2); /* Standard syntax */
+  	min-height: 100vh;
+ }
+
+ .vertical-align {
+ 	display: flex;
+ 	align-items: center;
+ }
+/*
+ .btn-default, .dropdown-menu, .dropdown-menu.li {
+ 	background-color: #76787b;
+ 	color: #fff;
+ 	border: 0;
+ }
+
+ .btn-default:hover, .btn-default:active, .btn-default:visited {
+ 	background-color: #5e6062;
+ 	color: #fff;
+ }
+ */
