@@ -2,15 +2,15 @@
 
 body {
 	font-family: Raleway, Helvetica, Arial, sans-serif;
+	background-color: #332e21;
 }
 
 h1 {
+	font-family: Arbutus Slab, Georgia, serif;
 	font-size: 7em;
 	color: #fff;
 	font-weight: 200;
-	letter-spacing: 2px;
-	line-height: 125%;
-	margin: 50px 0;
+	line-height: 135%;
 }
 
 h2 {
@@ -18,9 +18,17 @@ h2 {
 	margin: 15px 0;
 }
 
-.header {
+h3 {
+	color: #fff;
+}
+
+.header, .footer {
 	background-color: #332e21;
 	color: #fff;
+}
+
+.footer {
+	padding: 10px 0;
 }
 
 .gradients {
@@ -28,13 +36,51 @@ h2 {
   	background: -o-linear-gradient(bottom right, #7555da, #08c0c2); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(bottom right, #7555da, #08c0c2); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(bottom right, #7555da , #08c0c2); /* Standard syntax */
-  	min-height: 100vh;
+  	padding: 80px 0;
+}
+
+ .dropdown .btn-default {
+ 	margin: 15px 0;
  }
 
- .vertical-align {
- 	display: flex;
- 	align-items: center;
- }
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+ 	background-color: #332e21;
+ 	color: #fff;
+ 	border: 0;
+ 	margin: 15px;
+}
+
+.btn-dark:hover {
+	background-color: #403d34;
+}
+
+.newsletter-input {
+	width: 250px;
+}
+.newsletter {
+	padding: 5px;
+	color: #332e21;
+	margin-right: 5px;
+}
+
+.social-icons {
+	font-size: 26px;
+	color: #08c0c2;
+	margin-left: 10px;
+}
+
+.social-icons .fa:hover {
+	color: #fff;
+}
+
+.social-icons, a, .fa {
+	color: #08c0c2;
+}
+
+.social-icons, a:hover, a:active {
+	color: #fff;
+}
+
 /*
  .btn-default, .dropdown-menu, .dropdown-menu.li {
  	background-color: #76787b;
