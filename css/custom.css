@@ -6,25 +6,28 @@ body {
 }
 
 h1 {
+	font-weight: 600;
+	margin: 15px 0;
+	font-size: 2em;
+}
+
+h2 {
 	font-family: Arbutus Slab, Georgia, serif;
-	font-size: 7em;
+	font-size: 70pt;
 	color: #fff;
 	font-weight: 200;
 	line-height: 135%;
 }
 
-h2 {
-	font-weight: 600;
-	margin: 15px 0;
-}
-
 h3 {
 	color: #fff;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
 .header, .footer {
 	background-color: #332e21;
 	color: #fff;
+	padding: 5px 0;
 }
 
 .footer {
@@ -36,11 +39,11 @@ h3 {
   	background: -o-linear-gradient(bottom right, #7555da, #08c0c2); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(bottom right, #7555da, #08c0c2); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(bottom right, #7555da , #08c0c2); /* Standard syntax */
-  	padding: 80px 0;
+  	padding: 60px 0;
 }
 
  .dropdown .btn-default {
- 	margin: 15px 0;
+ 	margin: 13px 0 0;
  }
 
 .btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
@@ -79,4 +82,8 @@ h3 {
 
 .social-icons, a:hover, a:active {
 	color: #fff;
+}
+
+label {
+	font-weight: 400;
 }

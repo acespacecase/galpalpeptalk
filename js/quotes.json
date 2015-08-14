@@ -1,0 +1,136 @@
+[
+	{
+		"id":1,
+		"songName":"What Doesn't Kill You Makes You Stronger",
+		"artist":"Kelly Clarkson",
+		"link":"https://youtu.be/Xn676-fLq7I",
+		"quotes":[
+			"Baby you don't know me cause you're dead wrong",
+			"What doesn't kill you makes you stronger",
+			"Stand a little taller",
+			"Doesn't mean I'm lonely when I'm alone",
+			"Thanks to you I got a new thing started",
+			"Thanks to you I'm not the broken hearted",
+			"The day you left was just my beginning"
+		]
+	},
+	{
+		"id":2,
+		"songName":"Hold On",
+		"artist":"Wilson Phillips",
+		"link":"https://youtu.be/uIbXvaE39wM",
+		"quotes":[
+			"No one can change your life except for you",
+			"Don't ever let anyone step all over you",
+			"Open your heart and your mind",
+			"Is it really fair to feel this way inside?",
+			"Some day somebody's gonna make you want to turn around and say goodbye",
+			"Things'll go your way if you hold on for one more day",
+			"You could sustain or are you comfortable with the pain?",
+			"You've got no one to blame for your unhappiness",
+			"You got yourself into your own mess",
+			"Don't you think it's worth your time to change your mind?",
+			"I know that there is pain, but you hold on for one more day",
+			"Make up your mind"
+		]
+	},
+	{
+		"id":3,
+		"songName":"You Gotta Be",
+		"artist":"Des'ree",
+		"link":"https://youtu.be/jvl7240TZTc",
+		"quotes":[
+			"Challenge what the future holds",
+			"Try and keep your head up to the sky",
+			"Go ahead release your fears, stand up and be counted",
+			"Lovers, they may cause you tears",
+			"Don't be ashamed to cry",
+			"You gotta be bad, you gotta be bold, you gotta be wiser",
+			"You gotta be hard, you gotta be tough, you gotta be stronger",
+			"You gotta be cool, you gotta be calm, you gotta stay together",
+			"Try to solve the puzzles in your own sweet time",
+			"Time asks no questions, it goes on without you",
+			"The world keeps on spinning"
+		]
+	},
+	{
+		"id":4,
+		"songName":"Best Thing I Never Had",
+		"artist":"Beyonce",
+		"link":"https://youtu.be/FHp2KgyQUFk",
+		"quotes":[
+			"What goes around comes back around",
+			"Thank God I dodged the bullet",
+			"I'm so through with that",
+			"'Cause honestly you turned out to be the best thing I never had",
+			"I'm gonna always be the best thing you never had",
+			"You don't deserve my tears, I guess that's why they ain't there",
+			"You showed your ass and baby yes I saw the real you",
+			"It's time to face the facts, that I'm the one that's got away",
+			"Thank God I found the good in goodbye",
+			"I wanted you so bad, I'm so through with that"
+		]
+	},
+	{
+		"id":5,
+		"songName":"Hand In My Pocket",
+		"artist":"Alanis Morissette",
+		"link":"https://youtu.be/LQ8D5Ihe4hg",
+		"quotes":[
+			"I'm broke but I'm happy, I'm poor but I'm kind",
+			"What it all comes down to is that everything's gonna be fine, fine, fine",
+			"I'm young and I'm underpaid, I'm tired but I'm working, yeah",
+			"What it all comes down to is that I haven't got it all figured out just yet",
+			"'Cause I got one hand in my pocket and the other one is giving a peace sign",
+			"I'm brave but I'm chicken shit",
+			"What it all boils down to is that no one's really got it figured out just yet"
+		]
+	},
+	{
+		"id":6,
+		"songName":"Get Myself Together",
+		"artist":"Robyn",
+		"link":"https://youtu.be/gYEO3Zzqhp4",
+		"quotes":[
+			"When nothing else fits pick up the pieces and move on",
+			"I got to get my head back on, I got to get myself together",
+			"When this hurt is gone I got to get myself together",
+			"You can't pretend that nothing's wrong",
+			"I trust you decide on what you know is right",
+			"For whatever it's worth, I am on your side"
+		]
+	},
+	{
+		"id":7,
+		"songName":"Bulletproof",
+		"artist":"La Roux",
+		"link":"https://youtu.be/NQdC7h609k8",
+		"quotes":[
+			"I'm having fun don't put me down",
+			"I'll never let you sweep me off my feet",
+			"Burning bridges, shore to shore",
+			"This time, baby, I'll be bulletproof",
+			"Do your dirty words come out to play when you are hurt?",
+			"There's certain things that should be left unsaid",
+			"All you do is fill me up with doubt",
+			"Life's too short for me to stop",
+			"Oh, baby, you're time is running out."
+		]
+	},
+	{
+		"id":8,
+		"songName":"Independent Women",
+		"artist":"Destiny's Child",
+		"link":"https://youtu.be/0lPQZni7I18",
+		"quotes":[
+			"Try to control me boy you get dismissed",
+			"Pay my own fun, I pay my own bills, always 50/50 in relationships",
+			"'Cause I depend on me",
+			"I worked hard and sacrificed to get what I get",
+			"Ladies, it ain't easy being independent",
+			"If you're gonna brag make sure it's your money you flaunt",
+			"Depend on no one else to give you what you want",
+			"No one else can scare me"
+		]
+	}
+]
