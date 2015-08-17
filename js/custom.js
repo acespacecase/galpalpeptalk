@@ -50,4 +50,8 @@ $(document).ready(function(){
 
 	});
 
+	$('.dropdown-menu a').click(function(){
+		$('.dropdown-menu li').removeClass('active');
+	});
+
 });
