@@ -1,4 +1,4 @@
-[
+{ "songs" : [
 	{
 		"songName":"(Stronger) What Doesn't Kill You",
 		"artist":"Kelly Clarkson",
@@ -10,6 +10,6 @@
 		"artist":"Kelly Clarkson",
 		"link":"https://youtu.be/Xn676-fLq7I",
 		"quote":"The day you left was just my beginning."
-	},
+	}
 
-]
+] }

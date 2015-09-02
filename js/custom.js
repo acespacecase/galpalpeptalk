@@ -43,12 +43,6 @@ $(document).ready(function(){
 			lyrics:"The day you left was just my beginning."
 		},
 		{
-			songName: "(Stronger) What Doesn't Kill You",  
-			artist:"Kelly Clarkson",
-			link:"https://youtu.be/Xn676-fLq7I",
-			lyrics:"Thanks to you I got a new thing started."
-		},
-		{
 			songName: "Born This Way",  
 			artist:"Lady Gaga",
 			link:"https://youtu.be/wV1FrqwZyKw",
@@ -70,12 +64,15 @@ $(document).ready(function(){
 	
 	// 01 - they don't need you anyway
 	var i = 0;
+
 	$('#quoteGenerator1').click(function(){
+		var quotesLength = quotes01.length;
+		console.log(quotesLength);
 		$('.quote').html(quotes01[i].lyrics);
 		$('.artist').html(quotes01[i].songName + ' by ' + quotes01[i].artist);
 		$('.listenLink').attr("href", quotes01[i].link);
 		i++;
-		if (i === 11) {i = 0};
+		if (i === quotesLength) {i = 0};
 	});
 
 
