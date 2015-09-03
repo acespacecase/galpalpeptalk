@@ -87,3 +87,11 @@ h3 {
 label {
 	font-weight: 400;
 }
+
+.slideshow div {
+	display: none;
+}
+
+.slideshow div:first-child {
+	display: block;
+}

@@ -1,4 +1,23 @@
 $(document).ready(function(){
+	$('#next').on('click', getNext);
+
+	function getNext(){
+		var $curr = $('.slideshow div:visible'),
+		    $next = $($curr.next().length) ? $curr.next() : $('.slideshow div').first();
+		    transition($curr, $next);
+	}
+
+	function transition($curr, $next) {
+		$next.css('z-index', 2).fadeIn('slow', function(){
+			$curr.hide().css('z-index', 0);
+			$next.css('z-index', 1);
+		});
+	}
+
+});
+
+
+/*$(document).ready(function(){
 	var quotes01 = [
 		{
 			songName: "(Stronger) What Doesn't Kill You", 
@@ -63,6 +82,31 @@ $(document).ready(function(){
 	]
 	
 	// 01 - they don't need you anyway
+
+
+
+	/*
+	var i = 1;
+	var count = quotes01.length;
+		
+	$('#quoteGenerator1').click(function(){
+		if (i < count) {
+			var content = '<div class="quoteContainer text-center"><h2 class="quote">' + quotes01[i].lyrics + '</h2></div>';
+			content += '<h3 class="artist">' + quotes01[i].songName + ' by ' + quotes01[i].artist + '</h3>';
+			$('.quoteContainer').html('');
+			$(content).appendTo('.quoteContainer').show(300);
+			if (i != count-1) { i += 1};
+			if (i === count) { i = 1 };
+		}
+
+		//$('.quoteContainer').hide();
+		//var newQuote = '<div class="quoteContainer">something</div>';
+		//$('.gradients').append(newQuote).fadeIn();
+		//console.log(nextQuote);
+	});
+
+*/
+/*
 	var i = 0;
 
 	$('#quoteGenerator1').click(function(){
@@ -74,7 +118,8 @@ $(document).ready(function(){
 		i++;
 		if (i === quotesLength) {i = 0};
 	});
-
+*/
+/*
 
 	var quotes02 = [
 		{
@@ -162,8 +207,8 @@ $(document).ready(function(){
 		i++;
 		if (i === 12) {i = 0};
 	});
+*/
 
-	
 	// removing active class on navigation
 	$('.dropdown-menu a').click(function(){
 		$('.dropdown-menu li').removeClass('active');
