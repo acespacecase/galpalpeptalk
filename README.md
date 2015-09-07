@@ -5,8 +5,9 @@ Gal Pal Pep Talk is a side project inspired by my obsessing over lyrics of empow
 # What Was Used
 
 Bootstrap
-
-Javascript
+Javascript, jQuery
+Slick.js (Carousel)
+Google Fonts (Raleway & Arbutus Slab)
 
 # Advice
 
