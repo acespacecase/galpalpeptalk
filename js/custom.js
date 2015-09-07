@@ -1,20 +1,12 @@
 $(document).ready(function(){
-	$('#next').on('click', getNext);
+  $('.quoteContainer').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  });
 
-	function getNext(){
-		var $curr = $('.slideshow div:visible'),
-		    $next = $($curr.next().length) ? $curr.next() : $('.slideshow div').first();
-		    transition($curr, $next);
-	}
-
-	function transition($curr, $next) {
-		$next.css('z-index', 2).fadeIn('slow', function(){
-			$curr.hide().css('z-index', 0);
-			$next.css('z-index', 1);
-		});
-	}
-
-});
 
 
 /*$(document).ready(function(){
