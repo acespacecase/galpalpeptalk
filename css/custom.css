@@ -13,7 +13,7 @@ h1 {
 
 h2 {
 	font-family: Arbutus Slab, Georgia, serif;
-	font-size: 70pt;
+	font-size: 50pt;
 	color: #fff;
 	font-weight: 200;
 	line-height: 135%;
@@ -94,4 +94,11 @@ label {
 
 .slideshow div:first-child {
 	display: block;
+}
+
+@media(max-width: 768px) {
+	.mobile-centered {
+		text-align:center;
+		padding-top: 25px;
+	}
 }
