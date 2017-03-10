@@ -45,7 +45,11 @@ h3 {
 	border-radius: 0;
 }
 
-.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-outline {
+#listenLink, #secondBtn {
+	display: inline-block;
+}
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus, .btn-outline, .btn-outline:hover, .btn-outline:active, .btn-outline:active, .btn-outline:visited {
  	color: #fff;
 	font-size: 20px;
  	border: 0;
@@ -58,12 +62,12 @@ h3 {
 	border: 2px solid rgba(255,255,255,0.4);
 }
 
-.btn-outline:hover {
+.btn-outline:hover, .btn-outline:active {
 	background: rgba(255,255,255,0.1);
 	color: #fff;
 }
 
-.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus {
 	background-color: #332e21;
 	border: 2px solid rgba(255,255,255,0.4);
 }
