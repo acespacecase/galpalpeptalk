@@ -1,16 +1,16 @@
-/*Custom CSS*/
-
 body {
 	font-family: Raleway, Helvetica, Arial, sans-serif;
 	background-color: #332e21;
 }
 
+/* Logo in Top Nav Text */
 h1 {
 	font-weight: 600;
 	margin: 15px 0;
 	font-size: 2em;
 }
 
+/* Quote Text */
 h2 {
 	font-family: Arbutus Slab, Georgia, serif;
 	font-size: 50pt;
@@ -19,6 +19,7 @@ h2 {
 	line-height: 135%;
 }
 
+/* Artist Text */
 h3 {
 	color: #fff;
 	font-family: Raleway, Helvetica, Arial, sans-serif;
@@ -30,36 +31,57 @@ h3 {
 	padding: 5px 0;
 }
 
-.footer {
-	padding: 10px 0;
-}
-
 .gradients {
 	background: -webkit-linear-gradient(left top, #7555da, #08c0c2); /* For Safari 5.1 to 6.0 */
   	background: -o-linear-gradient(bottom right, #7555da, #08c0c2); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(bottom right, #7555da, #08c0c2); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(bottom right, #7555da , #08c0c2); /* Standard syntax */
-  	padding: 60px 0;
+  	padding: 5% 0;
+		min-height: 80vh;
 }
 
- .dropdown .btn-default {
- 	margin: 13px 0 0;
- }
+/* Button Styles */
+.btn {
+	border-radius: 0;
+}
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-outline {
+ 	color: #fff;
+	font-size: 20px;
+ 	border: 0;
+ 	margin: 25px 20px;
+	padding: 12px 25px;
+}
+
+.btn-outline {
+	background: none;
+	border: 2px solid rgba(255,255,255,0.4);
+}
+
+.btn-outline:hover {
+	background: rgba(255,255,255,0.1);
+	color: #fff;
+}
 
 .btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
- 	background-color: #332e21;
- 	color: #fff;
- 	border: 0;
- 	margin: 15px;
+	background-color: #332e21;
+	border: 2px solid rgba(255,255,255,0.4);
 }
 
 .btn-dark:hover {
 	background-color: #403d34;
 }
 
+
+/* Footer Styles */
+
+.footer {
+	padding: 20px 0;
+}
 .newsletter-input {
 	width: 250px;
 }
+
 .newsletter {
 	padding: 5px;
 	color: #332e21;
@@ -88,17 +110,20 @@ label {
 	font-weight: 400;
 }
 
-.slideshow div {
-	display: none;
-}
 
-.slideshow div:first-child {
-	display: block;
-}
+/* Mobile Styles */
 
 @media(max-width: 768px) {
 	.mobile-centered {
 		text-align:center;
 		padding-top: 25px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 40pt;
 	}
 }
