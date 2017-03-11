@@ -40,6 +40,7 @@ h3 {
 		min-height: 80vh;
 }
 
+
 /* Button Styles */
 .btn {
 	border-radius: 0;
@@ -81,15 +82,7 @@ h3 {
 
 .footer {
 	padding: 20px 0;
-}
-.newsletter-input {
-	width: 250px;
-}
-
-.newsletter {
-	padding: 5px;
-	color: #332e21;
-	margin-right: 5px;
+	min-height: 100px;
 }
 
 .social-icons {
@@ -102,16 +95,12 @@ h3 {
 	color: #fff;
 }
 
-.social-icons, a, .fa {
+.social-icons, a, a:visited, a:focus, .fa {
 	color: #08c0c2;
 }
 
 .social-icons, a:hover, a:active {
 	color: #fff;
-}
-
-label {
-	font-weight: 400;
 }
 
 
