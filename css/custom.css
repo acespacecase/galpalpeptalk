@@ -55,28 +55,55 @@ h3 {
 	margin-top: 50px;
 }
 
+.btn-dark, .btn-dark:visited, .btn-dark:active {
+	background-color: #332e21;
+	border: 2px solid rgba(255,255,255,0.4);
+	color: #fff;
+	font-size: 20px;
+	padding: 12px 25px;
+}
+
+.btn-outline, .btn-outline:visited, .btn-outline:active {
+	background: none;
+	border: 2px solid rgba(255,255,255,0.4);
+	color: #fff;
+	font-size: 20px;
+	padding: 12px 25px;
+}
+
+.btn-dark:hover, .btn-dark:focus {
+	color: #fff;
+	border: 2px solid rgba(255,255,255,0.3);
+}
+
+.btn-outline:hover, .btn-outline:focus {
+	background: rgba(255,255,255,0.2);
+	border: 2px solid rgba(255,255,255,0.2);
+}
+
+/*
 .btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus, .btn-outline, .btn-outline:hover, .btn-outline:active, .btn-outline:active, .btn-outline:visited {
  	color: #fff;
 	font-size: 20px;
  	border: 0;
 	padding: 12px 25px;
-}
+}*/
 
-.btn-outline {
+/*.btn-outline {
 	background: none;
 	border: 2px solid rgba(255,255,255,0.4);
-}
-
+}*/
+/*
 .btn-outline:hover, .btn-outline:active {
 	background: rgba(255,255,255,0.1);
 	color: #fff;
 	border: 2px solid rgba(255,255,255,0.2);
-}
+}*/
 
-.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus {
+/*.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus {
 	background-color: #332e21;
 	border: 2px solid rgba(255,255,255,0.4);
-}
+}*/
 
 .btn-dark:hover {
 	background-color: #403d34;
