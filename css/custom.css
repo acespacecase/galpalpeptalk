@@ -44,17 +44,21 @@ h3 {
 /* Button Styles */
 .btn {
 	border-radius: 0;
+	margin: 10px 20px;
 }
 
 #listenLink, #secondBtn {
 	display: inline-block;
 }
 
+.buttons {
+	margin-top: 50px;
+}
+
 .btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus, .btn-outline, .btn-outline:hover, .btn-outline:active, .btn-outline:active, .btn-outline:visited {
  	color: #fff;
 	font-size: 20px;
  	border: 0;
- 	margin: 25px 20px;
 	padding: 12px 25px;
 }
 
@@ -66,6 +70,7 @@ h3 {
 .btn-outline:hover, .btn-outline:active {
 	background: rgba(255,255,255,0.1);
 	color: #fff;
+	border: 2px solid rgba(255,255,255,0.2);
 }
 
 .btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited, .btn-dark:focus {
